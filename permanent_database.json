@@ -1,0 +1,72 @@
+{
+  "system_info": {
+    "name": "小玉贾维斯模式",
+    "version": "1.0.0",
+    "initialization_time": "2026-02-11T02:09:00-08:00",
+    "mode": "jarvis_professional",
+    "status": "initializing"
+  },
+  "user_profile": {
+    "name": "周先森",
+    "preferred_name": "周先森",
+    "timezone": "America/Los_Angeles",
+    "communication_style": "简洁直接",
+    "preferences": {
+      "autonomy_preferred": true,
+      "efficiency_focused": true,
+      "problem_solving_orientation": true
+    },
+    "projects": [
+      {
+        "name": "爆款素材积累系统",
+        "status": "in_progress",
+        "progress": "数据收集完成，模式分析进行中",
+        "start_date": "2026-02-09"
+      }
+    ]
+  },
+  "memory_protection": {
+    "auto_backup": true,
+    "prevent_deletion": true,
+    "version_control": true,
+    "backup_schedule": "daily"
+  },
+  "voice_wakeup": {
+    "enabled": true,
+    "wake_words": ["龙虾", "OpenClaw", "小玉"],
+    "interrupt_support": true,
+    "always_listening": true
+  },
+  "jarvis_mode": {
+    "tone": "专业、简洁、贴心",
+    "proactive_reminders": true,
+    "auto_summarization": true,
+    "task_optimization": true,
+    "redundancy_avoidance": true,
+    "high_execution": true
+  },
+  "daemon_config": {
+    "auto_start": true,
+    "crash_recovery": true,
+    "24h_operation": true,
+    "health_check": true
+  },
+  "knowledge_base": {
+    "auto_summary": true,
+    "preference_extraction": true,
+    "habit_tracking": true,
+    "goal_analysis": true,
+    "plan_synthesis": true
+  },
+  "response_optimization": {
+    "style_adaptation": true,
+    "demand_prediction": true,
+    "next_step_anticipation": true,
+    "personalized_responses": true
+  },
+  "conversation_history": {
+    "total_sessions": 1,
+    "last_session": "2026-02-11T02:09:00-08:00",
+    "topics": ["爆款素材系统", "浏览器自动化", "NotebookLM分析", "全局初始化"]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "video_analysis_system": {
+    "version": "1.0",
+    "created": "2026-02-23",
+    "inspired_by": "Oliver Henry's Larry System",
+    "philosophy": "从失败中学习，用数据驱动迭代"
+  },
+  
+  "tables": {
+    "videos": {
+      "fields": [
+        "video_id",
+        "title",
+        "channel",
+        "url",
+        "duration",
+        "views",
+        "likes",
+        "analysis_date",
+        "analysis_duration"
+      ],
+      "purpose": "存储视频基本信息"
+    },
+    
+    "analysis_results": {
+      "fields": [
+        "analysis_id",
+        "video_id",
+        "title_score",
+        "opening_score", 
+        "structure_score",
+        "production_score",
+        "cta_score",
+        "total_score",
+        "rating",
+        "key_insights",
+        "learnable_patterns",
+        "innovation_suggestions"
+      ],
+      "purpose": "存储5维分析结果"
+    },
+    
+    "patterns": {
+      "fields": [
+        "pattern_id",
+        "pattern_name",
+        "pattern_description",
+        "source_videos",
+        "applications",
+        "success_rate",
+        "discovery_date"
+      ],
+      "purpose": "存储提取的成功模式"
+    },
+    
+    "failures": {
+      "fields": [
+        "failure_id",
+        "analysis_id",
+        "failure_type",
+        "failure_description",
+        "root_cause",
+        "solution",
+        "encoded_rule",
+        "prevention_method"
+      ],
+      "purpose": "存储分析失败和解决方案"
+    },
+    
+    "improvements": {
+      "fields": [
+        "improvement_id",
+        "date",
+        "area",
+        "before",
+        "after",
+        "impact",
+        "next_step"
+      ],
+      "purpose": "存储系统改进记录"
+    }
+  },
+  
+  "metrics": {
+    "daily": [
+      "videos_analyzed",
+      "average_analysis_time",
+      "pattern_discovery_rate",
+      "failure_rate"
+    ],
+    "weekly": [
+      "skill_updates",
+      "accuracy_improvement",
+      "automation_level"
+    ],
+    "monthly": [
+      "system_maturity",
+      "value_delivered",
+      "user_satisfaction"
+    ]
+  },
+  
+  "automation_goals": {
+    "phase1": "手动分析 + 结构化记录",
+    "phase2": "半自动分析 + 模式识别",
+    "phase3": "全自动分析 + 创新建议",
+    "phase4": "预测性分析 + 主动优化"
+  }
+}

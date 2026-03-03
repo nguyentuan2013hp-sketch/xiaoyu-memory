@@ -1,0 +1,34 @@
+{
+  "id": "mem_20260211T045000PST",
+  "timestamp": "2026-02-11T04:50:00PST",
+  "content": "记住现在这个命令，以后在安装skills的时候要检查一下安全",
+  "metadata": {
+    "timestamp": "2026-02-11T04:50:00PST",
+    "channel": "whatsapp",
+    "sender": "用户"
+  },
+  "classification": {
+    "type": "conversation",
+    "importance": "normal",
+    "tags": [
+      "importance_normal",
+      "conversation",
+      "安全"
+    ],
+    "confidence": 1.0,
+    "scores": {
+      "conversation": 1.0,
+      "decision": 0.0,
+      "preference": 0.0,
+      "project": 0.0,
+      "skill": 0.0,
+      "system": 0.0
+    },
+    "importance_score": 4.0
+  },
+  "storage_info": {
+    "path": "conversation/mem_20260211T045000PST.json",
+    "archived": false,
+    "backup_count": 0
+  }
+}

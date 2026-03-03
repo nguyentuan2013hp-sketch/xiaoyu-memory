@@ -1,0 +1,34 @@
+{
+  "id": "mem_20260211T044500PST",
+  "timestamp": "2026-02-11T04:45:00PST",
+  "content": "爆款素材积累系统已完成10个频道的视频数据抓取",
+  "metadata": {
+    "timestamp": "2026-02-11T04:45:00PST",
+    "channel": "system",
+    "sender": "小玉"
+  },
+  "classification": {
+    "type": "project",
+    "importance": "temporary",
+    "tags": [
+      "importance_temporary",
+      "技术",
+      "project"
+    ],
+    "confidence": 1.0,
+    "scores": {
+      "conversation": 0.0,
+      "decision": 0.0,
+      "preference": 0.0,
+      "project": 3.0,
+      "skill": 0.0,
+      "system": 0.0
+    },
+    "importance_score": 1.5
+  },
+  "storage_info": {
+    "path": "project/mem_20260211T044500PST.json",
+    "archived": false,
+    "backup_count": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "by_id": {
+    "mem_20260211T045000PST": {
+      "type": "system",
+      "importance": "normal",
+      "timestamp": "2026-02-11T04:50:00PST",
+      "path": "system/mem_20260211T045000PST.json"
+    },
+    "mem_20260211T044500PST": {
+      "type": "project",
+      "importance": "temporary",
+      "timestamp": "2026-02-11T04:45:00PST",
+      "path": "project/mem_20260211T044500PST.json"
+    }
+  },
+  "by_type": {
+    "conversation": [
+      "mem_20260211T045000PST"
+    ],
+    "system": [
+      "mem_20260211T045000PST"
+    ],
+    "project": [
+      "mem_20260211T044500PST"
+    ]
+  },
+  "by_importance": {
+    "normal": [
+      "mem_20260211T045000PST",
+      "mem_20260211T045000PST"
+    ],
+    "temporary": [
+      "mem_20260211T044500PST"
+    ]
+  },
+  "by_tag": {
+    "importance_normal": [
+      "mem_20260211T045000PST",
+      "mem_20260211T045000PST"
+    ],
+    "conversation": [
+      "mem_20260211T045000PST"
+    ],
+    "安全": [
+      "mem_20260211T045000PST"
+    ],
+    "系统": [
+      "mem_20260211T045000PST"
+    ],
+    "system": [
+      "mem_20260211T045000PST"
+    ],
+    "importance_temporary": [
+      "mem_20260211T044500PST"
+    ],
+    "技术": [
+      "mem_20260211T044500PST"
+    ],
+    "project": [
+      "mem_20260211T044500PST"
+    ]
+  },
+  "by_time": {
+    "2026-02-11": [
+      "mem_20260211T045000PST",
+      "mem_20260211T045000PST",
+      "mem_20260211T044500PST"
+    ]
+  }
+}
